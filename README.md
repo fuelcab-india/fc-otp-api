@@ -93,4 +93,4 @@ To use this API, follow the API endpoints defined in the `otpRouter.js` file and
 
 Please note that this documentation provides a high-level overview of the project's structure and functionality. For detailed information, refer to the code and comments within each file.
 
-For any further assistance or questions, feel free to contact the project maintainers.
+
