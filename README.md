@@ -10,10 +10,10 @@
   - [server.js](#serverjs)
   - [Functions in otpAuth.js](#functions-in-otpauthjs)
   - [otpModel.js](#otpmodeljs)
-- [Routes in otpRouter.js](#routes-in-optrouterjs)
-- [Unit Testing in otpTest.js](#unit-testing-in-opttestjs)
-- [Environment Variables](#environment-variables)
-- [Usage](#usage)
+  - [Routes in otpRouter.js](#routes-in-optrouterjs)
+  - [Unit Testing in otpTest.js](#unit-testing-in-opttestjs)
+  - [Environment Variables](#environment-variables)
+  - [Usage](#usage)
 
 ## Files
 
@@ -74,7 +74,7 @@ This file defines the Express.js router for handling OTP-related API endpoints. 
 
 Additionally, there is a catch-all route that returns a 404 error for unrecognized routes.
 
-## Unit Testing in `otpTest.js`
+## Unit Testing in `app.test.js`
 
 This file contains unit tests for the OTP generation and verification functionalities using the Mocha and Chai testing framework. It includes test cases for:
 
