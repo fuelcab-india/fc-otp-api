@@ -1,14 +1,11 @@
 const router = require('express').Router();
-const { verifyOtp, sendOtp,resendOtp} = require('../Handler/otpAuth');
+const { verifyOtp, sendOtp} = require('../Handler/otpAuth');
 
 router.route('/otp/generate')
     .post(sendOtp);
 
 router.route('/otp/verify')
-    .post(verifyOtp);
-
-router.route('/otp/resend')
-    .post(resendOtp);    
+    .post(verifyOtp);  
 
 //Unauthorized Url Handler
 router.all("*", (req, res) => {
